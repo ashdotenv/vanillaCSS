@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/ss2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid black;
+  padding: 1.2%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul a {
+  transition: color 0.2s ease-in-out;
+  margin: 20px;
+}
+
+nav ul a:hover {
+  transition: color 0.2s ease-in-out;
+  color: rgb(5, 26, 82);
+  font-weight: 200;
+}
+
+.ri-shopping-bag-fill {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.hero h1 {
+  font-weight: 100;
+  font-size: 60px;
+  padding: 3% 0 0 5%;
+}
+
+.main {
+  position: relative;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  height: 88.5vh;
+  /* padding: 2%; */
+}
+
+.mainBottom {
+  align-items: center;
+  /* background-color: red; */
+  justify-content: space-between;
+  display: flex;
+}
+
+p {
+  margin-top: 2.5%;
+  line-height: 35px;
+  padding: 3% 0 3% 5%;
+  margin-left: 2.5%;
+  font-size: 22px;
+}
+
+.mainBottomRight ul li {
+  border-top: 1px solid black;
+  padding: 10px;
+  list-style: none;
+  padding: 10px;
+}
+.mainBottomRight ul {
+  width: 250px;
+  margin-right: 40px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+image{
+    height: 20vh;
+}

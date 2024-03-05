@@ -1,5 +1,5 @@
 ## CSS Revision
-#3. CSS Design
+#1. CSS Design
 ![Screenshot 2024-03-05 152750](https://github.com/ashishdotenv/vanillaCSS/assets/155558827/3ae9c41e-d406-49b5-b05e-7fa5fc8fb1da)
 
 #2. Chessboard Grid
